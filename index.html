@@ -4,244 +4,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gall0381-Portfolio</title>
+    <title>Naomi Gallupe</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" type="image/png" href="assets/grapeshdpi.png" sizes="16x16"/>
     <style>
-        body {
-            background-color: #e0f2f1;
-            color: #009688;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
 
-        nav .nav-wrapper {
-            position: relative;
-            height: 100%;
-        }
-
-        ul:not(.browser-default) {
-            padding-left: 0;
-            list-style-type: none;
+        html {
+            font-family: 'Work Sans', sans-serif;
         }
 
         header {
-            min-width: 40vh;
-            align-items: center;
-            height: auto;
-            background-image: linear-gradient(#009688, #e0f2f1);
-        }
-        nav ul {
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-bottom: 0px;
-            margin-left: 0px;
-        }
-
-        .row {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .valign-wrapper {
-            align-items: center;
-            width: 100%;
-            padding-bottom: 2rem;
-        }
-        .row .valign-wrapper img {
-            align-items: center;
-            max-width: 100%;
-        }
-
-        .row .valign-wrapper{
-            -webkit-box-align: center;
-            display: flex;
-            align-items: center;
-        }
-
-        .row .col.s6 {
-            width: 80%;
-            float: left;
-            padding-right: 3rem;
             padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 3rem;
+            color: black;
         }
 
-        .valign-wrapper img {
-            max-width: 55%;
-            min-width: 30%;
-            height: auto;
-        }
-
-        .circle {
+        .email {
             float: right;
-            border-radius: 50%;
-            padding: auto;
-        }
-        .card-wraper {
-            background-color: #1d302f;
         }
 
-        .card {
-            border-radius: 10px;
+        main {
+            padding-left: 2rem;
+            padding-right: 2rem;
         }
 
-        .container h5 {
+        footer {
+            padding-top: 5rem;
+            color: black;
+            align-items: center;
             text-align: center;
         }
 
-        .row>div {
-            line-height: 20px;
-            font-size: 12px;
+        a {
+            color: black;
+            padding: .5rem;
         }
 
-        .card-image {
-            align-items: center;
-            padding: 1.2rem;
+        #myBtn {
+            display: none;
+            float: right;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 1rem;
+            border: none;
+            border-radius: 20px;
+            padding: 0.6rem 2rem;
+            display: block;
+            margin: 0 auto;
+            margin-left: 0;
+            background-color: #372655;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            font-family: 'Work Sans', sans-serif;
+
         }
 
-        .card-content {
-            color: #009688;
-        }
-        footer {
-            padding-top: 4rem;
-            color: #009688;
+        #myBtn:hover {
+            background-color: #555;
         }
     </style>
 </head>
+<header>
+    <div class="email">
+        <h6>naomigallupe@gmail.com</h6>
+    </div>
+    <h2>Naomi Gallupe</h2>
+    <h6>Front End Developer, Designer</h6>
+    <h6>Mobile Application Dev & Design, Algonquin College 22</h6>
+    <br></br>
+</header>
 
-<body>
-    <nav class="nav-wrapper #009688 teal">
-        <div class="container ">
-            <a href="./index.html" class="brand-logo"></a>
-            <a href="#" class="sidenav-trigger show-on-large" data-target="mobile-links">
-                <i class="material-icons cc_pointer">menu</i>
-            </a>
-            <ul class="right hide-on-small-and-down fixed">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<main>
 
-    <ul class="sidenav" id="mobile-links">
-        <li><a href="index.html"><b>Home</b></a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html"><b>Contact</b></a></li>
-    </ul>
+    <img src="./assets/NaomiGallupe-Profile.png" alt="Naomi Gallupe" width="180" height="180"
+        class="circle respoinsive-img">
+    <br></br>
+    <br></br>
+    <h6>About Me ❀</h6>
+    <p>I am an Arctic born UI/UX designer based in Ottawa, Canada. I have 4 years of printing industry experience. I
+        am currently working towards building a career in design and technology.</p>
+        <p>I also like piano, cat memes, and coffee.</p>
+    <h5>↡</h5>
 
-    <header>
-        <div class="row valign-wrapper">
-            <div class><img src="./assets/NaomiGallupe-Profile.png" alt="Naomi Gallupe" class="circle respoinsive-img">
-
-            </div>
-            <div class="col s6">
-                <h2 class="white-text">Naomi Gallupe</h2>
-                <p class="white-text">Front-End Developer, Designer</p>
-            </div>
-    </header>
-
-    <main id="skills">
-        <div class="container">
-            <h5>Skills</h5>
-            <div class="row">
-                <div class="card-wraper">
-                    <div class="col s12 m4 l3 xl2">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/illustrator-logo.svg" alt="ai">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"></span>
-                                <p>Adobe Illustrator 2021:</p>
-                                <p>Able to build and edit raster and vector graphics using techniques such as image tracing, recoloring and transformation. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wraper">
-                    <div class="col s12 m4 l3 xl2">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/photoshop-logo.svg" alt="ps">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"></span>
-                                <p>Adobe Photoshop 2021:</p>
-                                <p>Able to edit and create using various techniques such as image optimizing, composite imaging and photo retouching.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wraper">
-                    <div class="col s12 m4 l3 xl2">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/xd-logo.svg" alt="xd">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"></span>
-                                <p>Adobe XD 2021</p>
-                                <p>Understanding the XD workflow - design, prototype, and share. Knowledge of productivity tools, components and XD interactions. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wraper">
-                    <div class="col s12 m4 l3 xl2">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/logo-2582748_640.png" alt="html">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"></span>
-                                <p>HTML5:</p>
-                                <p>Strong knowledge and understanding of building and navigating simple webpages through VSCode. Familiar with Document Object Model. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wraper">
-                    <div class="col s12 m4 l3 xl2">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/logo-2582747_640.png" alt="css">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"></span>
-                                <p>CSS:</p>
-                            <p>Able to develop responsive and mobile websites with strong knowledge of forms, tables, color schemes, Flexbox, SASS, Materialize CSS.  </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-wraper">
-                    <div class="col s12 m4 l3 xl2">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/circle-js-v2.png" alt="js">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title"></span>
-                                <p>JavaScript</p>
-                                <p>Understanding of NodeJS using VSCode. Able to building projects that can modify the DDM, fetch from APIs, and use history API. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
+    <br></br>
+    <br></br>
+    <br></br>
+    <h6>Design Projects</h6>
+    <p>MAD9011 App Icon Assignment 2 November 2020</p>
+    <img src="./assets/App-Icon-Assignment2-NaomiGallupe.png" alt="ai" width="460" height="180">
+    <br></br>
+    <br></br>
+    <p>MAD9011 App Icon Assignment 1 September 2020</p>
+    <img src="./assets/App-Icon-Assignment-NaomiGallupe.png" alt="ai" width="460" height="274">
+    <br></br>
+    <br></br>
+    <p>MAD9011 Prototype Final December 2020</p>
+    <img src="./assets/MAD9011-Final-Prototype-NaomiGallupe.png" alt="ai" width="460" height="260">
+    <br></br>
+    <br></br>
+    <p>Yahtzee© Boardgame Cover Re-design 2021</p>
+    <img src="./assets/Yahtzee_Redesign.png" alt="ai" width="460" height="260">
+    <br></br>
+    <br></br>
+    <p>Bandcamp© Apple© App Icon Logo 2021</p>
+    <img src="./assets/bandcamp-rework.png" alt="ai" width="280" height="280">
+    <br></br>
+    <br></br>
+    <h6>Front-End Projects</h6>
+    <p>MAD9014 Single Page Application: The MovieDB December 2020</p>
+    <img src="./assets/moviedb.png" alt="ai" width="280" height="280">
+    <br></br>
+    <br></br>
+    <p>MAD9013 Simple Web Form November 2020</p>
+    <img src="./assets/NaomisFlowers.png" alt="ai" width="280" height="280">
+    <br></br>
+    <br></br>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <footer>
         <div id="links" class="center-align"></div>
-        <p id="cr" class="center-align">© Naomi Gallupe 2020</p>
-        </footer>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script> $(document).ready(function () {
-            $('.sidenav').sidenav({ edge: 'left' });
-        })
-    </script>
-    </script>
-</body>
+        <p>Thanks for stopping by.</p>
+        <p id="cr" class="center-align">©Naomi Gallupe 2021</p>
+        <a href="https://www.linkedin.com/in/naomi-gallupe-656590b2/">Linkedin</a>
+        <a href="https://twitter.com/_naomi000">Twitter</a>
+
+    </footer>
+
+</main>
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 
 </html>
