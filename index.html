@@ -9,23 +9,29 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" type="image/png" href="assets/grapeshdpi.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="assets/grapeshdpi.png" sizes="16x16" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+        :root {
+            --color: rgb(255, 255, 255);
+        }
 
         html {
             font-family: 'Work Sans', sans-serif;
         }
 
+        main {
+            background-color: var(--color);
+        }
+
         header {
+            background-color: var(--color);
             padding-left: 2rem;
             padding-right: 2rem;
             padding-top: 3rem;
+            padding-bottom: 1rem;
             color: black;
-        }
-
-        .email {
-            float: right;
         }
 
         main {
@@ -35,6 +41,8 @@
 
         footer {
             padding-top: 5rem;
+            padding-bottom: 2rem;
+            margin: 0;
             color: black;
             align-items: center;
             text-align: center;
@@ -44,6 +52,7 @@
             color: black;
             padding: .5rem;
         }
+
 
         #myBtn {
             display: none;
@@ -69,13 +78,26 @@
         #myBtn:hover {
             background-color: #555;
         }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: white;
+
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
     </style>
 </head>
 <header>
+    <h2>Naomi Gallupe</h2>
     <div class="email">
         <h6>naomigallupe@gmail.com</h6>
     </div>
-    <h2>Naomi Gallupe</h2>
+    <br></br>
     <h6>Front End Developer, Designer</h6>
     <h6>Mobile Application Dev & Design, Algonquin College 22</h6>
     <br></br>
@@ -90,13 +112,17 @@
     <h6>About Me ❀</h6>
     <p>I am a UI/UX designer based in Ottawa, Canada. I've spent 4 years working on large printing presses and I
         am currently working towards building a career in design and technology.</p>
-        <p>I also like piano, cat memes, and coffee.</p>
+    <p>I also like piano, cat memes, and coffee.</p>
     <h5>↡</h5>
 
     <br></br>
     <br></br>
     <br></br>
     <h6>Design Projects</h6>
+    <p>MAD9011 Prototype Final December 2020</p>
+    <img src="./assets/MAD9011-Final-Prototype-NaomiGallupe.png" alt="ai" width="460" height="260">
+    <br></br>
+    <br></br>
     <p>MAD9011 App Icon Assignment 2 November 2020</p>
     <img src="./assets/App-Icon-Assignment2-NaomiGallupe.png" alt="ai" width="460" height="180">
     <br></br>
@@ -105,25 +131,22 @@
     <img src="./assets/App-Icon-Assignment-NaomiGallupe.png" alt="ai" width="460" height="274">
     <br></br>
     <br></br>
-    <p>MAD9011 Prototype Final December 2020</p>
-    <img src="./assets/MAD9011-Final-Prototype-NaomiGallupe.png" alt="ai" width="460" height="260">
-    <br></br>
-    <br></br>
-    <p>Yahtzee© Boardgame Cover Re-design 2021</p>
+    <h6>Personal Projects</h6>
+    <p>Yahtzee© Game Box Re-design 2021</p>
     <img src="./assets/Yahtzee_Redesign.png" alt="ai" width="460" height="260">
     <br></br>
     <br></br>
-    <p>Bandcamp© Apple© App Icon Logo 2021</p>
+    <p>Bandcamp© Sample App Icons 2021</p>
     <img src="./assets/bandcamp-rework.png" alt="ai" width="280" height="280">
     <br></br>
     <br></br>
     <h6>Front-End Projects</h6>
+    <p>MAD9013 Simple Web Form December 2020</p>
+    <img src="./assets/NaomisFlowers.png" alt="ai" width="280" height="280">
+    <br></br>
+    <br></br>
     <p>MAD9014 Single Page Application: The MovieDB December 2020</p>
     <img src="./assets/moviedb.png" alt="ai" width="280" height="280">
-    <br></br>
-    <br></br>
-    <p>MAD9013 Simple Web Form November 2020</p>
-    <img src="./assets/NaomisFlowers.png" alt="ai" width="280" height="280">
     <br></br>
     <br></br>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
